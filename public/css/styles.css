@@ -92,6 +92,7 @@ header {
     flex-wrap: wrap;
     margin: 0;
     font-size: 1rem;
+    padding: 0;
 }
 .listadoB {
     display: flex;
@@ -464,9 +465,12 @@ footer {
     .container {
         width: 100%;
     }
+    .form {
+        width: 35%;
+    }
 }
 
-@media (min-width:763px) and (max-width: 1409px) {
+@media (min-width:1114px) and (max-width: 1409px) {
     main {
         width: 100%;
     }
@@ -476,6 +480,175 @@ footer {
     .container {
         width: 100%;
     }
-
+    .img-prod {
+        width: 240px;
+        height: 240px;
+    }
+    .fa-truck {
+        left: 40%;
+    }
+    .form {
+        width: 45%;
+    }
 }
 
+@media (min-width:1024px) and (max-width:1113px) {
+    main {
+        width:100%
+    }
+    .botonAzulConRayasBlancas {
+        display: none;
+    }
+    .container {
+        width: 100%;
+    }
+    .img-prod {
+        width: 220px;
+        height: 220px;
+    }
+    .fa-truck {
+        left: 40%;
+    }
+    .form {
+        width: 45%;
+    }
+}
+
+@media (min-width:814px) and (max-width:1023px) {
+    main {
+        width:100%
+    }
+    .botonAzulConRayasBlancas {
+        display: none;
+    }
+    .container {
+        width: 100%;
+    }
+    .img-prod {
+        width: 200px;
+        height: 200px;
+    }
+    .barra-busqueda {
+        width: 75%;
+        left: 25%;
+    }
+    .manito {
+        width: 35%;
+        margin-left: 1%;
+        margin-right: 5%;
+    }
+    .header-bottom {
+        padding: 0;
+    }
+    .listadoB {
+        padding-left: 0;
+    }
+    .header-bottom {
+        width: 100%;
+    }
+    .header-top {
+        width: 100%;
+    }
+    .busqueda {
+        width: 40%;
+        margin: 0;
+    }
+    .fa-truck {
+        left: 40%;
+    }
+    .form {
+        width: 45%;
+    }
+}
+
+@media (min-width:480px) and (max-width: 813px) {
+    main {
+        width:100%
+    }
+    .botonAzulConRayasBlancas {
+        display: block;
+        margin-bottom: 2%;
+    }
+    .header-bottom {
+        display: none;
+    }
+    .container {
+        width: 100%;
+    }
+    .img-prod {
+        width: 200px;
+        height: 200px;
+    }
+    .barra-busqueda {
+        width: 100%;
+        margin-left: 10px;   
+    }
+    .header-top {
+        width: 100%;
+        flex-direction: column;
+    }
+    .busqueda {
+        margin-bottom: 5%;
+        margin-top: -6.5%;
+        margin-right: 10%; 
+    }
+    .logo-ml {
+        width: 35% ;
+        margin-top: 1%;
+    }
+    .footer-container {
+        flex-direction: column;
+    }
+    .fa-truck {
+        left: 40%;
+    }
+    .form {
+        width: 85%;
+    }
+}
+
+@media (min-width:2px) and (max-width: 479px) {
+    main {
+        width:100%
+    }
+    .botonAzulConRayasBlancas {
+        display: block;
+        margin-bottom: 2%;
+    }
+    .header-bottom {
+        display: none;
+    }
+    .container {
+        width: 100%;
+    }
+    .img-prod {
+        width: 200px;
+        height: 200px;
+    }
+    .barra-busqueda {
+        width: 100%;
+        margin-left: 10px;   
+    }
+    .header-top {
+        width: 100%;
+        flex-direction: column;
+    }
+    .busqueda {
+        margin-bottom: 5%;
+        margin-top: -10.5%;
+        margin-right: 10%; 
+    }
+    .logo-ml {
+        width: 40% ;
+        margin-top: 1%;
+    }
+    .footer-container {
+        flex-direction: column;
+    }
+    .fa-truck {
+        left: 40%;
+    }
+    .form {
+        width: 85%;
+    }
+}
